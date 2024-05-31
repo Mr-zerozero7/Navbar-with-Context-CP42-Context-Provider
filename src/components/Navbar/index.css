@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+}
+.menu-item {
+  margin: 15px;
+  font-weight: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #f8fafc;
+  list-style: none;
+}
+
+.nav-logo {
+  width: 60px;
+  height: 50px;
+}
+.theme-pic {
+  width: 40px;
+  height: 40px;
+}
+.theme-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.dark-mode {
+  background-color: #333333;
+  color: #f8fafc;
+}
+.light-mode {
+  background-color: #f8fafc;
+  color: #333333;
+}

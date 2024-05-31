@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.about-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-dark-pic {
+  width: 200px;
+  height: 200px;
+}
+.about-heading {
+  text-decoration: none;
+}
